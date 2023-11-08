@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&family=Poppins&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gabarito", sans-serif;
+}
+body {
+  position: relative;
+}
+header {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 40px;
+ 
+}
+header a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+header a:hover{
+  text-decoration: underline;
+  transition: 0.5s;
+
+}
+.heading {
+  display: flex;
+  align-items: center;
+}
+.heading img {
+  width: 130px;
+  height: 130px;
+}
+
+header ul li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+}
+header button {
+  background-color: crimson;
+  padding: 14px 30px;
+  font-size: 30px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  margin-right: 22px;
+}
+header button:hover{
+  cursor: pointer;
+}
+/* ------------------------navbar complete------------------- */
+.main-screen {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .main-screen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* -------------------------MAINSCREEN COMPLETE----------------- */
+  #margin {
+    margin-top: 70vh;
+  }
+  .subheading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  /* ------------------subheading end----------- */
+  .signup{
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 600px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(30px);
+  }
+  .signup input{
+    margin: 20px;
+    height: 50px;
+    padding: 35px;
+    width: 400px;
+    font-size: 30px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 40px;
+  
+  }
+  .signup input[type="submit"]{
+    width: 300px;
+    border: none;
+    text-align: center;
+    padding: 14px 40px;
+    background-color: crimson;
+    height: 60px;
+  }
+  /* ------------------signup ends-------- */
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .contain{
+    width: 400px;
+
+  }
+  .contain:hover{
+    color: crimson;
+    font-size: 20px;
+    cursor: pointer
+
+  }
+  .containImage{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  .containImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .containImage img:hover{
+    transform: scale(1.2);
+    transition: 0.9s;
+  }
+  .containText{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* ----------------container main complete------ */
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+  }
+  footer img{
+    width: 300px;
+    height: 295px;
+  }
+  footer ul {
+    margin: 15px;
+  }
+  footer ul li{
+    margin: 19px;
+    list-style-type: none;
+  }
+  footer a{
+    text-decoration: none;
+    color: white;
+  }
+  footer a:hover{
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  /* ------------FOOTER ENDS----------- */
